@@ -1,6 +1,6 @@
 # Plan: Add defconfig for 360 AP6PCM03 (T31X, GC4653, ETH+ATBM6031)
 
-## 1. Background
+## 1. Background 
 
 The **360 AP6PCM03** is a camera based on the **T31X** SoC with a **GC4653** image sensor and **ATBM6031** WiFi, identical to the existing `360_ap1pa3_t31x_gc4653_atbm6031` configuration but with the **addition of an Ethernet port**. The user wants to be able to choose between WiFi and Ethernet as needed at runtime, and ensure ethernet does not block the boot process.
 
